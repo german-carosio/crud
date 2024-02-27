@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=LpC2EEIhu-g&t=509s
+
+Se creo proyecto en firebase
+Se creo Firestore Database
+Se creo collection en Firestore Database
+
+instalar dependencias: 
+firebase / lo importo en service / firebaseConfig.js
+react-router
+bootstrap / lo importo en main.jsx
+sweet alert
+
+.env
