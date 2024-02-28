@@ -1,13 +1,16 @@
 
 const NavBar = () => {
   return (
-    <div>
+    <header>
+      <nav>
       <ul>
         <li>Ingresos</li>
         <li>Gastos</li>
         <li>Todos los movimientos</li>
       </ul>
-    </div>
+      </nav>
+      
+    </header>
   )
 }
 
