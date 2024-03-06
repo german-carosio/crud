@@ -38,6 +38,7 @@ const Show = () => {
           <li className='transactions-item' key={transaction.id}>
             <p>{transaction.type === "ingreso" ? <i className="fa-solid fa-arrow-up verde"></i> : <i className="fa-solid fa-arrow-down rojo"></i>}</p>
             <p>{transaction.date ? new Date(transaction.date.seconds * 1000).toLocaleDateString() : ''}</p>
+            <p>{transaction.name}</p>
             <p>${transaction.amount}</p>
             <div className='item-buttons'>
             <Link to={`/edit/${transaction.id}`}><button><i className="fa-solid fa-pen-to-square"></i></button></Link>

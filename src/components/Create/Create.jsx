@@ -24,6 +24,7 @@ const Create = () => {
         console.error('Error storing transaction: ', error);
       }
     } else {
+      //Alerta a usuario
       console.log('completar campo type en form');
     }
     
